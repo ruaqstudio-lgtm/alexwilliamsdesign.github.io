@@ -1,0 +1,155 @@
+
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio et Services de AW DESIGN</title>
+    <!-- Chargement de Tailwind CSS pour un design moderne et responsive -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Section d'introduction - En-tête -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Emplacement pour votre logo -->
+            <a href="#" class="text-2xl font-extrabold text-indigo-600">
+                <img src="https://placehold.co/120x40/6366f1/ffffff?text=AW+DESIGN" alt="Logo de AW DESIGN" class="h-10">
+            </a>
+            <div class="space-x-4 hidden md:flex">
+                <a href="#services" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Services</a>
+                <a href="#portfolio" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Portfolio</a>
+                <a href="https://wa.link/m9z1ek" target="_blank" class="text-gray-600 hover:text-indigo-600 transition-colors duration-300">Contactez-moi</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section Héro - Première impression -->
+    <section class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 leading-tight">
+                Transformez votre vision en réalité visuelle
+            </h1>
+            <p class="text-lg md:text-xl max-w-2xl mx-auto mb-8 font-light">
+                Je suis Alex Williams, spécialiste en communication visuelle et graphiste. Je crée des identités de marque, des contenus percutants et des designs qui captivent votre public.
+            </p>
+            <a href="https://wa.link/m9z1ek" target="_blank" class="bg-white text-indigo-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition-transform transform hover:scale-105">
+                Contactez-moi
+            </a>
+        </div>
+    </section>
+
+    <!-- Section des services -->
+    <section id="services" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Mes Services</h2>
+            <p class="max-w-xl mx-auto mb-12 text-gray-600">
+                Chaque projet est une histoire que je m'efforce de raconter à travers un design unique et stratégique.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 : Contenus visuels -->
+                <div class="bg-white p-8 rounded-2xl shadow-md transform hover:scale-105 transition-transform duration-300">
+                    <div class="mb-4 text-indigo-500">
+                        <svg class="w-12 h-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14c-2.76 0-5-2.24-5-5s2.24-5 5-5s5 2.24 5 5s-2.24 5-5 5zm0 2c-3.31 0-6-2.69-6-6s2.69-6 6-6s6 2.69 6 6s-2.69 6-6 6zm0 2c-2.21 0-4-1.79-4-4s1.79-4 4-4s4 1.79 4 4s-1.79 4-4 4zm0 2c-1.1 0-2-.9-2-2s.9-2 2-2s2 .9 2 2s-.9 2-2 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Création de contenus visuels</h3>
+                    <p class="text-gray-600">Création de contenus visuels impactants pour les réseaux sociaux qui génèrent de l'engagement.</p>
+                </div>
+                
+                <!-- Service 2 : Identité Visuelle -->
+                <div class="bg-white p-8 rounded-2xl shadow-md transform hover:scale-105 transition-transform duration-300">
+                    <div class="mb-4 text-indigo-500">
+                        <svg class="w-12 h-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2l4-4M17.5 6.5l-3 3m3-3l-3-3m-3 3l-3-3m3 3l-3-3m-3-3m3 3M12 19v-2m-3-2l-2-2m-2-2m4 4l-4 4m2-2m-2-2M12 5V3M6.5 6.5l-3-3m3 3l-3 3m3-3l3 3M17.5 17.5l-3 3m3-3l-3-3m-3-3l3 3m-3-3l3 3M12 19v2m-3-2l-2-2m-2-2m-2-2l-2-2"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Identité Visuelle & Branding</h3>
+                    <p class="text-gray-600">Création de logos, chartes graphiques et univers de marque qui vous rendent mémorable.</p>
+                </div>
+
+                <!-- Service 3 : Supports de communication -->
+                <div class="bg-white p-8 rounded-2xl shadow-md transform hover:scale-105 transition-transform duration-300">
+                    <div class="mb-4 text-indigo-500">
+                        <svg class="w-12 h-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 0v3.75m3.75-3.75v3.75m3.75-3.75v3.75"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Supports de communication</h3>
+                    <p class="text-gray-600">Conception de flyers, brochures, cartes de visite et affiches prêts à imprimer et à utiliser en digital.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section portfolio -->
+    <section id="portfolio" class="py-16 md:py-24">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Portfolio</h2>
+            <p class="max-w-xl mx-auto mb-12 text-gray-600">
+                Découvrez quelques-unes de mes réalisations qui ont aidé des entreprises à se démarquer.
+            </p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Projet 1 -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+                    <img class="w-full object-cover" src="https://i.postimg.cc/k4d0b6Bj/levez-votre-clat-quotidien-png.jpg" alt="Affiche pour Blown Cryst">
+                    <div class="p-6 text-left">
+                        <h4 class="font-bold text-lg mb-1">Création d'affiche pour la marque de cosmétiques Blown Cryst</h4>
+                        <p class="text-gray-600">Le but était de créer une affiche épurée et élégante, incarnant la pureté et la douceur. Les tons chauds et la composition minimaliste mettent en valeur les produits et transmettent un sentiment de sérénité, renforçant la confiance du client.</p>
+                    </div>
+                </div>
+                <!-- Projet 2 -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+                    <img class="w-full object-cover" src="https://i.postimg.cc/WpQsN37H/Ajouter-un-titre-1080-x-1080-px-png.jpg" alt="Affiche pour la conférence F.A.S.H.O">
+                    <div class="p-6 text-left">
+                        <h4 class="font-bold text-lg mb-1">Création d'affiche pour la conférence religieuse F.A.S.H.O</h4>
+                        <p class="text-gray-600">L'objectif était de capturer la profondeur et la spiritualité. L'image d'un livre ouvert symbolise la Parole divine, avec des mots-clés qui flottent, incarnant la foi et la sagesse, des valeurs fondamentales de l'événement.</p>
+                    </div>
+                </div>
+                <!-- Projet 3 -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+                    <img class="w-full object-cover" src="https://i.postimg.cc/Vkh1dkqT/Soir-e-Afro-Groove-1024-x-1536-px-png.jpg" alt="Affiche pour l'événement Soirée Afro Groove">
+                    <div class="p-6 text-left">
+                        <h4 class="font-bold text-lg mb-1">Création d'affiche pour l'événement musical Soirée Afro Groove</h4>
+                        <p class="text-gray-600">La création avait pour but de capturer la joie et l'énergie de la culture africaine. L'utilisation de motifs traditionnels en fond et de couleurs chaudes a permis de créer une ambiance festive et immersive. Les danseurs incarnent la vitalité et le rythme de l'événement.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="https://bit.ly/alexwilliamsportofolio" target="_blank" class="mt-8 inline-block bg-indigo-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-indigo-700 transition-transform transform hover:scale-105">
+                Voir le portfolio complet
+            </a>
+        </div>
+    </section>
+
+    <!-- Section Témoignage -->
+    <section class="bg-indigo-700 text-white py-16 md:py-20">
+        <div class="container mx-auto px-4 text-center max-w-2xl">
+            <p class="text-xl italic mb-4">
+                "Honnêtement, je ne savais pas trop à quoi m’attendre au début, mais AW DESIGN a vraiment compris ce que je voulais. Il a su transformer mes idées en visuels super impactants et mes messages passent enfin comme je le voulais. Travailler avec lui, c’est simple, efficace et surtout agréable. Je suis vraiment content du résultat !"
+            </p>
+            <p class="font-bold text-indigo-200">- Koffi M., Entrepreneur</p>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer class="bg-gray-800 text-gray-300 py-8 text-center">
+        <p class="mb-2">&copy; 2024 AW DESIGN. Tous droits réservés.</p>
+        <div class="flex justify-center space-x-4">
+            <a href="https://www.facebook.com/share/1EymqgcgiF/?mibextid=wwXIfr" target="_blank" class="hover:text-white transition-colors">Facebook</a>
+        </div>
+    </footer>
+</body>
+</html>
+
